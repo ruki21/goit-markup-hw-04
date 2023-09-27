@@ -288,6 +288,14 @@ main {
     letter-spacing: 0.32px;
 }
 
+.about-list-icon {
+    height: 112px;
+    border-radius: 4px;
+    background: var(--cloud);
+    justify-content: center;
+    align-items: center;
+}
+
 /* for what are we doing section */
 .services-section {
     width: 100%;
