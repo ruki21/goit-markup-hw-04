@@ -73,13 +73,12 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 20px;
 }
 
 
 .section {
     padding: 120px 0px;
-    width: 100%;
+
 }
 
 
@@ -194,19 +193,18 @@ main {
 
 .hero-background {
 
-    background-size: cover;
+
     background: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('./../images/people-office-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-    max-width: 1440px;
-
+    background-size: cover;
 }
 
 
 .hero-section-container {
     align-items: center;
-    display: flex;
+
     flex-direction: column;
     height: auto;
 
@@ -244,7 +242,8 @@ main {
     line-height: 24px;
     letter-spacing: 0.64px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-top: 4%;
+    display: block;
+    margin: 48px auto 0;
 }
 
 .main-header-menu-link:hover,
@@ -403,7 +402,7 @@ main {
 }
 
 .team-content {
-    width: 232px;
+
     padding: 32px 16px;
 }
 
@@ -466,9 +465,9 @@ main {
 }
 
 .customer-container {
-    max-width: 1200px;
+    width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
-    padding: 80px 20px;
 }
 
 .customer-list {
@@ -478,19 +477,25 @@ main {
     gap: 40px;
 }
 
+
 .customer-list-item {
     width: 100%;
     height: 88px;
-    border: 1px solid var(--slate);
+    border: 1px solid var(--lightslate);
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all var(--transition-duration) var(--animation-timing-function);
 }
 
 .customer-icon {
-    width: 100%;
+    width: 104%;
+    height: 56px;
     fill: var(--lightslate);
+    justify-content: center;
+    align-items: center;
+
 }
 
 .customer-icon:hover {
@@ -508,16 +513,14 @@ main {
 .footer {
 
 
-    background: var(--navyblue);
-    width: 1440px;
-    margin: 0 auto;
-    padding: 80px 20px;
+    background-color: var(--navyblue);
+    padding: 100px 0;
 }
 
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-
+    padding: 80px 20px;
 }
 
 .footer-logo {
@@ -539,13 +542,16 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+
 }
 
 .footer-list-item {
-    width: 100%;
-    display: flex;
+
+
     flex-direction: column;
     gap: 10px;
+
+
 }
 
 .footer-list-item h3 {
