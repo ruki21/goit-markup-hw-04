@@ -490,8 +490,8 @@ main {
 }
 
 .customer-icon {
-    width: 104%;
-    height: 56px;
+    width: 168px;
+    height: 88px;
     fill: var(--lightslate);
     justify-content: center;
     align-items: center;
@@ -502,10 +502,15 @@ main {
     fill: var(--ocean);
 }
 
+.customers-list-item:hover {
+    border-color: var(--iris);
+}
+
 .customer-list-item:hover {
     border-color: var(--ocean);
     fill: var(--ocean);
 }
+
 
 /* for footer */
 
